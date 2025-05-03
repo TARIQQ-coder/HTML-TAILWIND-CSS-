@@ -1,0 +1,64 @@
+html,body{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.background-image{
+  background-image: url("Images/legal-team.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.fa-gavel{
+  font-size: 50px;
+  display: hidden;
+}
+
+.fa-magnifying-glass{
+  color: white;
+}
+
+ .input-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fa-think-peaks{
+  font-size: 50px;
+}
+
+.fa-cube{
+  font-size: 50px;
+}
+
+.fa-umbrella{
+  font-size: 50px;
+}
+
+.fa-facebook-f{
+  font-size: 25px;
+  color: rgb(102, 102, 235);
+}
+
+.fa-twitter{
+  font-size: 25px;
+  color: rgb(102, 102, 235);
+}
+
+.fa-linkedin{
+  font-size: 25px;
+  color: rgb(102, 102, 235);
+}
+
+.fa-instagram{
+  font-size: 25px;
+  color: rgb(102, 102, 235);
+}
+
+.fa-bars{
+  font-size: 25px;
+}

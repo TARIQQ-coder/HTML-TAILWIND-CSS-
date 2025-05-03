@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <title>Shopping Cart</title>
+</head>
+<body class="pt-8 pb-20">
+
+  <div class="md:grid grid-cols-5 pb-2 flex justify-between">
+    <p class="font-bold text-lg">
+      Sizes
+    </p>
+
+    <p class="text-sm col-span-3 pt-2">
+      16 Product(s) found
+    </p>
+
+
+    <div class="font-semibold flex ">
+      <h3 class="mr-4">Order by</h3>
+      <select class="border-1 border-gray-200 rounded-md">
+        <Option>Select</Option>
+        <Option>1</Option>
+        <Option>2</Option>
+      </select>
+    </div>
+
+  </div>
+
+  <div class="flex">
+                        <!--Side bar-->
+  <div class="w-[20%]">
+    <div class="flex flex-wrap gap-2 lg:grid grid-cols-4 md:gap-4 ">
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">XS</a></p>
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">S</a></p>
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">M</a></p>
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">ML</a></p>
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">L</a></p>
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">XL</a></p>
+      <p class="w-10 bg-gray-200 rounded-full p-2 text-center hover:bg-gray-500 transition duration-300 ease-in-out text-sm"><a href="#">XXL</a></p>
+    </div>
+    
+    <div>
+      <p class="text-sm p-2 text-gray-400">
+        Leave a star on Github if this repository was helpful :)
+      </p>
+
+      <div>
+          <button class="border-1 border-black px-2">
+            <i class="fa-solid fa-star"></i>
+            star
+          </button>
+
+          <button class="border-1 border-black px-2">
+            848
+          </button>
+        </div>
+    </div>
+  </div>
+                  <!--Shopping cart-->
+  <div class="lg:grid grid-cols-4 gap-4 sm:flex flex-wrap justify-center align-center">
+                  <!--cart1-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo1.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4 ">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4" >
+            Add to cart
+        </a>
+      </div>
+
+    </div>
+
+                        <!--cart2-->
+      <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo2.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+          Add to cart
+        </a>
+      </div>
+
+    </div>           
+    
+    <!--Cart3-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo3.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+         Add to cart
+      </a>
+      </div>
+
+    </div>
+
+    <!--cart4-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo4.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo2.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+                        <!--cart2-->
+      <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo4.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a>
+        Add to cart
+        </a>
+      </div>
+
+    </div>           
+    
+    <!--Cart3-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo1.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+    <!--cart4-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo3.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a>
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo2.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+                        <!--cart2-->
+      <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo1.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>           
+    
+    <!--Cart3-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo4.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+    <!--cart4-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo3.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo2.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+                        <!--cart2-->
+      <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo4.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>           
+    
+    <!--Cart3-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo3.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+    <!--cart4-->
+    <div class="relative mb-4">
+
+      <div>
+        <span class="bg-black text-white p-2 absolute right-0">
+          Free shipping
+        </span>
+        <img src="Images/shopping-photo1.png" alt="shopping-photo1" class="w-full]">
+      </div>
+      
+      <div class="mb-4">
+          <p class="font-semibold text-lg text-center py-4">
+            Dark thug shoulder hanging blue-shirt
+          </p>
+          <p class="text-center font-semibold">
+            $ <span class="text-3xl">29</span>.45 
+          </p>
+          <p class="text-center text-gray-400">
+            or 5 <span class="font-semibold">x$5.89</span>
+          </p>
+      </div>
+
+      <div class="bg-black text-white text-center py-2 px-4">
+        <a href="#" class=" block transition duration-300 ease-in-out transform hover:scale-120 py-2 px-4">
+        Add to cart
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+ </div>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
